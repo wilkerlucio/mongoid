@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Durran Jordan"]
-  s.date = %q{2010-03-20}
+  s.date = %q{2010-03-23}
   s.email = %q{durran@gmail.com}
   s.extra_rdoc_files = [
     "README.rdoc"
@@ -114,6 +114,8 @@ Gem::Specification.new do |s|
      "lib/mongoid/matchers/size.rb",
      "lib/mongoid/memoization.rb",
      "lib/mongoid/named_scope.rb",
+     "lib/mongoid/observable.rb",
+     "lib/mongoid/paths.rb",
      "lib/mongoid/scope.rb",
      "lib/mongoid/state.rb",
      "lib/mongoid/timestamps.rb",
@@ -237,6 +239,8 @@ Gem::Specification.new do |s|
      "spec/unit/mongoid/matchers_spec.rb",
      "spec/unit/mongoid/memoization_spec.rb",
      "spec/unit/mongoid/named_scope_spec.rb",
+     "spec/unit/mongoid/observable_spec.rb",
+     "spec/unit/mongoid/paths_spec.rb",
      "spec/unit/mongoid/scope_spec.rb",
      "spec/unit/mongoid/state_spec.rb",
      "spec/unit/mongoid/timestamps_spec.rb",
@@ -364,6 +368,8 @@ Gem::Specification.new do |s|
      "spec/unit/mongoid/matchers_spec.rb",
      "spec/unit/mongoid/memoization_spec.rb",
      "spec/unit/mongoid/named_scope_spec.rb",
+     "spec/unit/mongoid/observable_spec.rb",
+     "spec/unit/mongoid/paths_spec.rb",
      "spec/unit/mongoid/scope_spec.rb",
      "spec/unit/mongoid/state_spec.rb",
      "spec/unit/mongoid/timestamps_spec.rb",
