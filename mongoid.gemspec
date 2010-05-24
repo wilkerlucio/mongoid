@@ -369,14 +369,14 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<activesupport>, ["<= 2.3.5"])
+      s.add_runtime_dependency(%q<activesupport>, ["~> 2.3.5"])
       s.add_runtime_dependency(%q<mongo>, [">= 0.19.1"])
       s.add_runtime_dependency(%q<durran-validatable>, [">= 2.0.1"])
       s.add_runtime_dependency(%q<will_paginate>, ["< 2.9"])
       s.add_development_dependency(%q<rspec>, [">= 1.2.9"])
       s.add_development_dependency(%q<mocha>, [">= 0.9.8"])
     else
-      s.add_dependency(%q<activesupport>, ["<= 2.3.5"])
+      s.add_dependency(%q<activesupport>, ["~> 2.3.5"])
       s.add_dependency(%q<mongo>, [">= 0.19.1"])
       s.add_dependency(%q<durran-validatable>, [">= 2.0.1"])
       s.add_dependency(%q<will_paginate>, ["< 2.9"])
@@ -384,7 +384,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<mocha>, [">= 0.9.8"])
     end
   else
-    s.add_dependency(%q<activesupport>, ["<= 2.3.5"])
+    s.add_dependency(%q<activesupport>, ["~> 2.3.5"])
     s.add_dependency(%q<mongo>, [">= 0.19.1"])
     s.add_dependency(%q<durran-validatable>, [">= 2.0.1"])
     s.add_dependency(%q<will_paginate>, ["< 2.9"])
